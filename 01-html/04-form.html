@@ -10,6 +10,27 @@
     <main>
       <form action="/submit">
         <!-- Add your code here -->
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <fieldset>
+          <legend>Favorite Character:</legend>
+          <label><input type="radio" name="radio" /> Spongebob</label>
+          <br>
+          <label><input type="radio" name="radio" /> Sandy</label>
+          <br>
+          <label><input type="radio" name="radio" /> Patrick</label>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Are you a fan of the show?</legend>
+          <label><input type="checkbox" /> Yes, I have watched all episodes!</label>
+          <br>
+          <label><input type="checkbox" /> Yes, it's got the best memes!</label>
+        </fieldset>
       </form>
     </main>
   </body>
