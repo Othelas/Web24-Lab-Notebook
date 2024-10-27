@@ -1,3 +1,65 @@
+:root {
+  --darkmagenta: #8b008b;
+  --gold: #ffd700;
+}
+
+header {
+  margin: 0;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body {
+  padding-top: 50px;
+  margin: 0;
+}
+
+section.main {
+  padding: 10px;
+}
+
+@media (max-width: 511px) {
+  body {
+    padding-top: 150px;
+    background: var(--darkmagenta);
+    color: var(--white);
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header nav ul li {
+    margin: 10px 15px;
+  }
+}
+
+@media (min-width: 512px) and (max-width: 1023px) {
+  body {
+    background: var(--gold);
+    color: var(--black);
+  }
+}
+
 @media (min-width: 1024px) {
   body {
     background: var(--green);
