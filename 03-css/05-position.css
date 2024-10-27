@@ -2,25 +2,55 @@
   --darkviolet: #9400d3;
   --maroon: #800000;
   --darkgolden: #8f6805;
+  --purple: #800080; /* Added purple color variable */
+  --white: #ffffff; /* Added white color variable */
+}
+
+body {
+  margin: 0; /* Remove default margin */
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .box {
+  box-sizing: border-box;
   padding: 10px;
   color: var(--white);
+  height: 400px;
+  width: 300px;
 }
 
 .static {
+  margin: 10px;
   background-color: var(--darkviolet);
+  position: static;
 }
 
 .relative {
+  margin: 10px;
   background-color: var(--purple);
+  position: relative;
 }
 
 .absolute {
   background-color: var(--maroon);
+  position: absolute;
+  top: 0;
+  height: 70px; 
+  width: 100%;
 }
 
 .fixed {
   background-color: var(--darkgolden);
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
 }
+
+
