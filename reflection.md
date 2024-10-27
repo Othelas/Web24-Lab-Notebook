@@ -43,13 +43,12 @@ We were only required to do the `01-form.html` in this exercise however there we
 **Were you able to complete the exercises on your own or did you use the
 videos or the solutions for help?**
 
+I used the slides extensively for this exercise. CSS is not straightforward at all when trying to do more complex UI manipulation.
+
 **How helpful did you find the exercises in this section? Was there one
 exercise that was particularly helpful?**
 
-**Was there something that you wish had been explained better?**
-
-**Were there other exercises that might have helped you learn this week’s
-topic a little better?**
+I spent a lot of time trying to figure out layout.css. I tried many different values but hardcoding felt like the wrong way to do it. Eventually I realised that you could specify the box type to include border spacing or ad bording spacing. In the end all I had to do was change one line to `box-sizing: border-box;`
 
 ### Flexbox
 
