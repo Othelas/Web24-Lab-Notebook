@@ -2,12 +2,12 @@
   --darkviolet: #9400d3;
   --maroon: #800000;
   --darkgolden: #8f6805;
-  --purple: #800080; /* Added purple color variable */
-  --white: #ffffff; /* Added white color variable */
+  --purple: #800080;
+  --white: #ffffff;
 }
 
 body {
-  margin: 0; /* Remove default margin */
+  margin: 0;
 }
 
 .main {
